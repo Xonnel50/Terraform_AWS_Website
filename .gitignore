@@ -10,7 +10,7 @@
 *.tfstate.*
 public-key.tf
 /private-key/*
-
+db-password.tf
 
 # Crash log files
 crash.log

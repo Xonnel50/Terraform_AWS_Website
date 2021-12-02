@@ -2,6 +2,7 @@
 
 resource "aws_security_group" "dfsc_bastion_sg" {
   vpc_id = aws_vpc.dfsc_vpc.id
+  name   = "Bastion Host Security Group"
   egress {
     from_port = 0
     to_port = 0

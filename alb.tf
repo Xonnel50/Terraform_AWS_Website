@@ -2,6 +2,7 @@
 
 resource "aws_security_group" "dfsc_alb_sg" {
   vpc_id = aws_vpc.dfsc_vpc.id
+  name   = "ALB Security Group"
   egress {
     from_port = 0
     to_port = 0
